@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_hero_skill1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_hero">
+    <TextView
+        android:id="@+id/view_hero_skill1_name"
+        android:layout_marginTop="8dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="#338ada"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"><!--
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#f00"
+            android:layout_margin="2dp"
+            android:text="冷却值"
+            />-->
+        <TextView
+            android:id="@+id/view_hero_skill1_cooling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"><!--
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#f00"
+            android:layout_margin="2dp"
+            android:text="消耗"
+            />-->
+        <TextView
+            android:id="@+id/view_hero_skill1_consume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/view_hero_skill1_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

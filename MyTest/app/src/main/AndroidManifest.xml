@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lisuke.mytest">
+
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/test"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".NavActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.HeroMainActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".Activity.HeroActivity"
+            android:label="@string/title_activity_hero"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".Activity.EquipMainActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".Activity.EquipActivity"
+            android:label="@string/title_activity_hero"
+            android:theme="@style/AppTheme">
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

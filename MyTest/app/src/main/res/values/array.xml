@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="people">
+        <item>李明星</item>
+        <item>小星</item>
+        <item>星星</item>
+        <item>小明</item>
+        <item>明明</item>
+        <item>小明与小星</item>
+        <item>李小明</item>
+        <item>李小星</item>
+        <item>李小明与李小星</item>
+        <item>李大仙</item>
+        <item>明星</item>
+        <item>limingxing</item>
+        <item>MR</item>
+    </string-array>
+</resources>

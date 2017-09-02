@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mian_view_hint" type="id" />
+    <item name="mian_tv_title" type="id" />
+    <item name="menu_search" type="id" />
+    <item name="menu_favorite" type="id" />
+</resources>

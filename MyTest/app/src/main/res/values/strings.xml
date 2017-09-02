@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">王者荣耀助手</string>
+    <string name="title_activity_hero">hero</string>
+    <string name="file_path">PVPHelper</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="database_path">/db/pa_wzry.db</string>
+    <string name="icon_path">/icon/</string>
+    <string name="download_error">下载失败</string>
+    <string name="download_succ">下载成功</string>
+</resources>

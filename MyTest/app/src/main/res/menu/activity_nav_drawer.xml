@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_all_hero"
+            android:title="所有英雄" />
+        <item
+            android:id="@+id/nav_"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+
+    </group>
+-->
+
+    <item android:id="@+id/nav_refresh"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="刷新一下">
+
+    </item>
+
+
+    <item android:id="@+id/nav_all_hero"
+        android:title="所有英雄" />
+
+    <item android:id="@+id/nav_all_hero_cate_switch"
+        android:title="英雄分类"/>
+
+    <group
+        android:id="@+id/nav_all_hero_cate">
+        <item android:id="@+id/nav_hero_cate1" android:title="战士" />
+        <item android:id="@+id/nav_hero_cate2" android:title="法师" />
+        <item android:id="@+id/nav_hero_cate3" android:title="坦克" />
+        <item android:id="@+id/nav_hero_cate4" android:title="刺客" />
+        <item android:id="@+id/nav_hero_cate5" android:title="射手" />
+        <item android:id="@+id/nav_hero_cate6" android:title="辅助" />
+    </group>
+    <item android:id="@+id/nav_all_equip"
+        android:title="所有装备" />
+    <item android:id="@+id/nav_all_hero_equip_switch"
+        android:title="装备分类" />
+    <group
+        android:id="@+id/nav_all_equip_cate">
+        <item android:id="@+id/nav_equip_cate1" android:title="攻击" />
+        <item android:id="@+id/nav_equip_cate2" android:title="法术" />
+        <item android:id="@+id/nav_equip_cate3" android:title="防御" />
+        <item android:id="@+id/nav_equip_cate4" android:title="移动" />
+        <item android:id="@+id/nav_equip_cate5" android:title="打野" />
+    </group>
+</menu>
